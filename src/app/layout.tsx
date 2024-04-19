@@ -1,10 +1,10 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
 import './globals.css';
 import { ReactNode } from 'react';
 import Header from '@/components/Header/Header';
-
-const inter = Inter({ subsets: ['latin'] });
+import { GeistSans } from 'geist/font/sans';
+import { GeistMono } from 'geist/font/mono';
+import { cn } from '@/lib/utils';
 
 export const metadata: Metadata = {
   title: 'nhac.dev',
@@ -17,8 +17,11 @@ type RootLayoutProps = {
 
 const RootLayout = ({ children }: RootLayoutProps) => {
   return (
-    <html lang="en" className="dark">
-      <body className={inter.className}>
+    <html
+      lang="en"
+      className={cn('dark', GeistSans.variable, GeistMono.variable)}
+    >
+      <body>
         <Header />
         <main>{children}</main>
       </body>
