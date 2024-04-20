@@ -7,7 +7,11 @@ import { GeistMono } from 'geist/font/mono';
 import { cn } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'nhac.dev',
+  metadataBase: new URL('https://nhac.dev'),
+  title: {
+    default: 'Nhac Nguyen',
+    template: '%s | Nhac Nguyen',
+  },
   description: 'Nhac&apos;s online home',
 };
 
