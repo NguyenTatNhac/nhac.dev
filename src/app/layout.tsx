@@ -21,7 +21,7 @@ const RootLayout = ({ children }: RootLayoutProps) => {
       lang="en"
       className={cn('dark', GeistSans.variable, GeistMono.variable)}
     >
-      <body>
+      <body className="max-w-2xl md:mx-auto">
         <Header />
         <main>{children}</main>
       </body>
