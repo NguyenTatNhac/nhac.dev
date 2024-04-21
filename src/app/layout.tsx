@@ -28,7 +28,7 @@ const RootLayout = ({ children }: RootLayoutProps) => {
     >
       <body className="antialiased">
         <Header />
-        <main className="max-w-2xl mx-4 md:mx-auto">{children}</main>
+        <main className="max-w-2xl mx-4 md:mx-auto py-6">{children}</main>
         <Footer />
       </body>
     </html>
