@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 const Home = () => {
   return (
     <div className="prose dark:prose-invert">
@@ -6,7 +8,14 @@ const Home = () => {
         I&apos;m a fullstack software engineer, I enjoy working with Java,
         React, Next.js and crafting beautiful software.
       </p>
-      <p>I&apos;m currently living and working in Berlin, Germany.</p>
+      <p>
+        I currently <Link href="/work">work</Link> as a Senior Software Engineer
+        at{' '}
+        <Link href="https://www.mgm-tp.com/" target="_blank">
+          mgm technology partners
+        </Link>
+        .
+      </p>
     </div>
   );
 };
