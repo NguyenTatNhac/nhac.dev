@@ -24,7 +24,7 @@ const RootLayout = ({ children }: RootLayoutProps) => {
   return (
     <html
       lang="en"
-      className={cn('dark', GeistSans.variable, GeistMono.variable)}
+      className={cn('dark', 'min-w-80', GeistSans.variable, GeistMono.variable)}
     >
       <body className="antialiased">
         <Header />
