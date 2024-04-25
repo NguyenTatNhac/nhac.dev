@@ -80,7 +80,7 @@ const config = {
         },
       },
       animation: {
-        'waving-hand': 'waving 1s linear infinite',
+        'waving-hand': 'waving 2s linear infinite',
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
       },
