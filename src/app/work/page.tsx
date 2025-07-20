@@ -2,8 +2,8 @@ import { Badge } from '@/components/ui/badge';
 import WorkExperience from '@/components/WorkExperience';
 
 export const metadata = {
-  title: 'Resume | Nhac Tat Nguyen',
-  description: "Nhac Tat Nguyen's online resume and professional experience.",
+  title: 'Resume | Nhac Nguyen',
+  description: "Nhac Nguyen's online resume and professional experience.",
 };
 
 const WorkPage = () => {
@@ -11,9 +11,7 @@ const WorkPage = () => {
     <section className="max-w-2xl mx-auto py-10 px-4">
       {/* Header */}
       <div className="mb-8 text-center">
-        <h1 className="text-4xl font-bold mb-2 text-foreground">
-          Nhac Tat Nguyen
-        </h1>
+        <h1 className="text-4xl font-bold mb-2 text-foreground">Nhac Nguyen</h1>
         <p className="text-lg text-muted-foreground mb-2">
           Fullstack Software Engineer in Berlin, Germany
         </p>
