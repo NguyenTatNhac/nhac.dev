@@ -45,6 +45,8 @@ const WorkPage = () => {
             Other
           </span>
           <Badge variant="outline">Cloud</Badge>
+          <Badge variant="outline">Docker</Badge>
+          <Badge variant="outline">Kubernetes</Badge>
           <Badge variant="outline">Atlassian Plugin Development</Badge>
         </ul>
       </div>

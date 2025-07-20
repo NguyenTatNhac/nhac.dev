@@ -1,4 +1,4 @@
-import { Badge } from "@/components/ui/badge";
+import { Badge } from '@/components/ui/badge';
 
 const Home = () => {
   return (
@@ -22,19 +22,27 @@ const Home = () => {
       <div className="mb-10">
         <h2 className="text-xl font-semibold mb-4 text-foreground">Skills</h2>
         <ul className="flex flex-wrap gap-2 justify-center">
-          <span className="block w-full text-xs text-muted-foreground mt-2 mb-1 text-center">Backend</span>
+          <span className="block w-full text-xs text-muted-foreground mt-2 mb-1 text-center">
+            Backend
+          </span>
           <Badge variant="outline">Java</Badge>
           <Badge variant="outline">Spring</Badge>
           <Badge variant="outline">Spring Boot</Badge>
           <Badge variant="outline">SQL</Badge>
           <Badge variant="outline">Microservices</Badge>
-          <span className="block w-full text-xs text-muted-foreground mt-4 mb-1 text-center">Frontend</span>
+          <span className="block w-full text-xs text-muted-foreground mt-4 mb-1 text-center">
+            Frontend
+          </span>
           <Badge variant="outline">React</Badge>
           <Badge variant="outline">Next.js</Badge>
           <Badge variant="outline">TypeScript</Badge>
           <Badge variant="outline">Tailwind CSS</Badge>
-          <span className="block w-full text-xs text-muted-foreground mt-4 mb-1 text-center">Other</span>
+          <span className="block w-full text-xs text-muted-foreground mt-4 mb-1 text-center">
+            Other
+          </span>
           <Badge variant="outline">Cloud</Badge>
+          <Badge variant="outline">Docker</Badge>
+          <Badge variant="outline">Kubernetes</Badge>
           <Badge variant="outline">Atlassian Plugin Development</Badge>
         </ul>
       </div>
