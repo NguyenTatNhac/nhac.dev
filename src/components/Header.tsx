@@ -19,14 +19,6 @@ const NavItems: NavItem[] = [
     name: 'Work',
     href: '/work',
   },
-  {
-    name: 'Blog',
-    href: '/blog',
-  },
-  {
-    name: 'About',
-    href: '/about',
-  },
 ];
 
 const Header = () => {
