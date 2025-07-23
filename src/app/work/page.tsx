@@ -2,7 +2,7 @@ import { Badge } from '@/components/ui/badge';
 import WorkExperience from '@/components/WorkExperience';
 
 export const metadata = {
-  title: 'Resume | Nhac Nguyen',
+  title: 'Resume',
   description: "Nhac Nguyen's online resume and professional experience.",
 };
 
@@ -58,7 +58,7 @@ const WorkPage = () => {
         </h2>
         <div className="grid gap-6">
           <WorkExperience
-            title="Senior Fullstack Software Engineer"
+            title="Fullstack Software Engineer"
             company="mgm technology partners GmbH"
             location="Berlin, Germany"
             date="2022 - Present"

@@ -28,17 +28,13 @@ const WorkExperience = ({
       )}
       <div className="flex-1 min-w-0">
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1">
-          <span className="text-lg font-bold text-foreground truncate">
-            {title}
-          </span>
+          <span className="text-lg font-bold text-foreground">{title}</span>
           <span className="text-xs text-muted-foreground font-mono sm:text-right">
             {date}
           </span>
         </div>
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1">
-          <span className="text-muted-foreground text-sm truncate">
-            {company}
-          </span>
+          <span className="text-muted-foreground text-sm">{company}</span>
           <span className="text-xs text-muted-foreground sm:text-right">
             {location}
           </span>
