@@ -148,8 +148,8 @@ const WorkPage = () => {
             B.Sc. in Computer Science
           </h3>
           <p className="text-muted-foreground">
-            College of Information Technology - The University of Da Nang | 2015
-            - 2018
+            Vietnam-Korea University of ICT - The University of Da Nang | 2015 -
+            2018
           </p>
         </div>
       </div>
